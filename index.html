@@ -2,6 +2,67 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Dominican Republic</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: black;
+}
+
+
+
+.img-1 {
+  background-image: url("Dominican_Republic.jpg");
+  min-height: 100%;
+  -webkit-clip-path: polygon(0 22%, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(0 22%, 100% 0, 100% 100%, 0 100%);
+}
+
+.img-2 {
+  background-image: url("DR-houses.jpg");
+  min-height: 400px;
+  -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 25%, 100% 100%, 0% 100%);
+}
+
+.img-3 {
+  background-image: url("music.jpg");
+  min-height: 400px;
+}
+
+.img-1, .img-2, .img-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+</style>
 
 </head>
 <body>
